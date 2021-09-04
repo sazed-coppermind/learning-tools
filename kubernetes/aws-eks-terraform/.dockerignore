@@ -1,0 +1,4 @@
+# No meter al contenedor archivos git o restos de terraform
+readme.md
+terraform*
+Dockerfile
