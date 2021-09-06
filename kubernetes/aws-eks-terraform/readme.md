@@ -1,4 +1,4 @@
-# Trend Micro - Container Security
+# Laboratorio Demo Trend Micro - Container Security
 
 ### Sobre el proyecto
 
