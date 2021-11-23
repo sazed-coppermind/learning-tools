@@ -11,6 +11,16 @@ variable "container_security_api"{
     description = "Insertar aqui la API Key de Container Security"
 }
 
+variable "container_security_endpoint"{
+    description = "Endpoint a poner en overrides de Adm Controller"
+    default = "https://container.us-1.cloudone.trendmicro.com"
+}
+
+variable "container_security_runtime"{
+    description = "Valor para activar Runtime security"
+    default = "true"
+}
+
 variable "smartcheck_api"{
     description = "Insertar aqui la API Key de Smartcheck"
 }

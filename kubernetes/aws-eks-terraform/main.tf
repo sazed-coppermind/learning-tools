@@ -170,14 +170,17 @@ resource "helm_release" "smartcheck" {
 
 
         set {
-           name = "cloudOne.admissionController.apiKey"
-           value = var.container_security_api
-
-
-
-
+        name = "cloudOne.admissionController.apiKey"
+        value = var.container_security_api
         }
-       
 
+        set {
+        name = "cloudOne.endpoint"
+        value = var.container_security_endpoint
+        }
 
+        set { 
+        name = "cloudOne.runtimeSecurity.enabled"
+        value = var.container_security_runtime
+        }
     }
