@@ -23,7 +23,7 @@ docker build . -t smartcheck
 
 # Correr contenedor
 
-docker run -it --rm smartcheck
+docker run -it smartcheck
 ```
 
 ### Se requiere usar aws-configure para loguearse con el aws-cli:
